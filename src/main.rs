@@ -27,7 +27,7 @@ fn next_permutation(element: &mut Vec<i32>) -> bool{
   }
   return true;
 }
-const MAX:i32 = 12;
+const MAX:i32 = 9;
 fn main() {
     for n in 1..MAX {
         let mut elements = Vec::with_capacity(n as usize);
